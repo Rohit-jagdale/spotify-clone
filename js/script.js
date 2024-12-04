@@ -202,7 +202,7 @@ async function main() {
 
     mute.addEventListener("click", () => {
         if (currentSong.volume === 0) {
-            mute.src = "images/volume.svg";
+            mute.src = "/images/volume.svg";
             currentSong.volume = 0.10;
             document.querySelector(".range").getElementsByTagName("input")[0].value = 10;
         } else {
